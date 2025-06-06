@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Contato</title>
+
+<header class="site-header">
+        <div class="container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5C8xI5JHpiUI-LWZ5_b5QmDQM8gDu8_7o8Q&s" alt="logo" widht="300" height="100">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="componentes.html">Componentes Utilizados</a></li>
+                    <li><a href="sobrenos.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+    }
+/* Header */
+.site-header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #2d3e2f;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.main-nav a:hover {
+    color: #4CAF50;
+}
+
+
+    form {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #28a745;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <form
+  action="https://formspree.io/f/xwpojywz"
+  method="POST"
+>
+  <h1>Contato</h1>
+
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" name="telefone" id="telefone" required>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea name="mensagem" id="mensagem" required></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+
+
+</body>
+</html>
