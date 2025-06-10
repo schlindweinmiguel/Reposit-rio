@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     color: #2d3e2f;
     line-height: 1.6;
 }
@@ -61,14 +61,12 @@ body {
 
 /* Header */
 .site-header {
-    background-image: url('back.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #fff;
-    padding: 80px 20px;
-    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .site-header .container {
@@ -85,7 +83,7 @@ body {
 
 .main-nav a {
     text-decoration: none;
-    color: #fff;
+    color: #2d3e2f;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
@@ -96,7 +94,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background-color: #6A5ACD;
+    background: url('back.png') center/cover no-repeat;
     color: #fff;
     padding: 100px 20px;
     text-align: center;
@@ -202,4 +200,4 @@ ul li {
     .section-title {
         font-size: 2em;
     }
-}
+    }
