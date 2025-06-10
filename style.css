@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Reset bÃ¡sico */
 * {
     margin: 0;
     padding: 0;
@@ -94,7 +94,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 100, 0, 0.4), rgba(0, 100, 0, 0.4)), url('https://images.unsplash.com/photo-1503252947848-7338a0e63c6b') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 100, 0, 0.4), rgba(0, 100, 0, 0.4)), url('fundo.png') center/cover no-repeat;
     color: #fff;
     padding: 100px 20px;
     text-align: center;
@@ -112,7 +112,7 @@ body {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* Conteúdo de Seções */
+/* ConteÃºdo de SeÃ§Ãµes */
 section {
     padding: 50px 20px;
     background-color: #fff;
