@@ -61,8 +61,12 @@ body {
 
 /* Header */
 .site-header {
-    background: url('back.png') center/cover no-repeat fixed;
-    
+    background-image: url('back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
     padding: 80px 20px;
     text-align: center;
 }
