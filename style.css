@@ -61,7 +61,7 @@ body {
 
 /* Header */
 .site-header {
-    background-image: url('caminho/para/sua-imagem.jpg');
+    background-image: url('fundo');
   background-size: cover;       /* Redimensiona para cobrir toda a área */
   background-position: center;  /* Centraliza a imagem */
     padding: 20px 0;
