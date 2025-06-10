@@ -61,9 +61,7 @@ body {
 
 /* Header */
 .site-header {
-    background-image: url('back.png');
-  background-size: cover;       /* Redimensiona para cobrir toda a área */
-  background-position: center;  /* Centraliza a imagem */
+    background-color: #fff;
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -96,7 +94,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 100, 0, 0.4), rgba(0, 100, 0, 0.4)), url('https://images.unsplash.com/photo-1503252947848-7338a0e63c6b') center/cover no-repeat;') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 100, 0, 0.4), rgba(0, 100, 0, 0.4)), url('back.png') center/cover no-repeat;
     color: #fff;
     padding: 100px 20px;
     text-align: center;
