@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url('back.png') center/cover no-repeat fixed;
+
     color: #2d3e2f;
     line-height: 1.6;
 }
@@ -61,7 +61,7 @@ body {
 
 /* Header */
 .site-header {
-    background-color: #fff;
+    background: url('back.png') center/cover no-repeat fixed;
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
