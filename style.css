@@ -61,7 +61,7 @@ body {
 
 /* Header */
 .site-header {
-     background: url('ground.png') center/cover no-repeat;
+     background: url('back.png') center/cover no-repeat;
 }
 
 .site-header .container {
@@ -89,7 +89,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('back.png') center/cover no-repeat;
+    background: url('ground.png') center/cover no-repeat;
     color: #fff;
     padding: 100px 20px;
     text-align: center;
