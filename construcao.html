@@ -3,51 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monitoramento de Lixo nos Distritos</title>
+    <title>Construção do Projeto - Monitoramento de Lixo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="site-header">
         <div class="container">
-          
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="componentes.html">Componentes Utilizados</a></li>
                     <li><a href="sobrenos.html">Sobre Nós</a></li>
                     <li><a href="contato.html">Contato</a></li>
-		    <li><a href="construcao.html">Construção Projeto</a></li>
+                    <li><a href="construcao.html">Construção Projeto</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-
-   <main class="site-main">
-        <section class="hero">
-		 
+    <main class="site-main">
+        <section id="construcao">
             <div class="container">
-                <div class="hero-content">
-                      <h2 class="hero-title">.</h2>
-                    <p class="hero-subtitle">.</p>
-                </div>
+                <h2 class="section-title">Construção do Projeto</h2>
+
+                <p>Durante a construção do nosso projeto de Monitoramento de Lixo nos Distritos, passamos por diversas etapas de montagem, testes de sensores e programação. Abaixo estão alguns registros desse processo:</p>
+
+                <h3>Montagem dos Componentes:</h3>
+                <img src="construcao1.jpg" alt="Montagem da equipe com sensores" style="width:100%; max-width:700px; margin-bottom:20px;">
+                <img src="construcao2.jpg" alt="Testando os circuitos e programação" style="width:100%; max-width:700px; margin-bottom:20px;">
+                <img src="construcao3.jpg" alt="Exibição dos sensores conectados ao app" style="width:100%; max-width:700px; margin-bottom:20px;">
+
+                <h3>Testes de Monitoramento de Gás:</h3>
+                <p>Utilizamos sensores de gás integrados com o ESP32 para realizar testes de detecção. Criamos uma interface para acompanhar os níveis de gás em tempo real.</p>
+                <img src="construcao2.jpg" alt="Monitoramento de gás com ESP32" style="width:100%; max-width:700px; margin-bottom:20px;">
+
+                <h3>Integração com a Plataforma ThingSpeak:</h3>
+                <p>Os dados captados pelos sensores foram enviados para a plataforma ThingSpeak, permitindo a visualização de gráficos atualizados em tempo real.</p>
+
+                <h3>Resultados Finais:</h3>
+                <p>A equipe conseguiu realizar uma integração eficiente entre hardware (sensores e ESP32), software (programação em Arduino e Web) e a apresentação dos dados online, demonstrando o potencial do projeto para monitoramento ambiental.</p>
             </div>
         </section>
+    </main>
 
-        
-		    <img src="construcao1.jpg" alt="imagem de construcao do projeto"> 
-	      <img src="construcao2.jpg" alt="imagem de construcao do projeto"> 
-		
-            </div>
-        </section>
-
-
-       <footer class="site-footer">
+    <footer class="site-footer">
         <div class="container">
             <p>&copy; Desenvolvido por Miguel Schlindwein - 2025. Todos os direitos reservados.</p>
         </div>
     </footer>
-
-    <script src="https://kit.fontawesome.com/your_fontawesome_kit.js" crossorigin="anonymous"></script>
 </body>
 </html>
