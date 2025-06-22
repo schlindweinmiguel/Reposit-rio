@@ -1,0 +1,51 @@
+/* Personalizações apenas para a página construção */
+
+/* Cor de fundo no cabeçalho */
+.site-header {
+    background-color: #388e3c;
+}
+
+.site-header .main-nav a {
+    color: #ffffff;
+}
+
+.site-header .main-nav a:hover {
+    color: #c8e6c9;
+}
+
+/* Títulos da construção */
+#construcao h2,
+#construcao h3 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Parágrafos */
+#construcao p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #333333;
+}
+
+/* Imagens da construção com fade-in */
+#construcao img {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.3s;
+}
+
+/* Animação Fade-In com leve subida */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
