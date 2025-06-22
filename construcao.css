@@ -1,17 +1,6 @@
 /* Personalizações apenas para a página construção */
 
-/* Cor de fundo no cabeçalho */
-.site-header {
-    background-color: #388e3c;
-}
 
-.site-header .main-nav a {
-    color: #ffffff;
-}
-
-.site-header .main-nav a:hover {
-    color: #c8e6c9;
-}
 
 /* Títulos da construção */
 #construcao h2,
