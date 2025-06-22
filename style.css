@@ -61,7 +61,7 @@ body {
 
 /* Header */
 .site-header {
-    
+    background-color: #388e3c; /* Cabeçalho verde escuro */
 }
 
 .site-header .container {
@@ -78,13 +78,13 @@ body {
 
 .main-nav a {
     text-decoration: none;
-    color: #2d3e2f;
+    color: #ffffff; /* Links brancos */
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
 
 .main-nav a:hover {
-    color: #4CAF50;
+    color: #c8e6c9; /* Verde claro ao passar o mouse */
 }
 
 /* Hero Section */
@@ -195,4 +195,4 @@ ul li {
     .section-title {
         font-size: 2em;
     }
-    }
+}
