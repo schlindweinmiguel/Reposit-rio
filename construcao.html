@@ -1,92 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Construção do Projeto - Monitoramento de Lixo</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="construcao.css">
-    <style>
-        #construcao img {
-            width: 100%;
-            max-width: 500px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construção do Projeto - Monitoramento de Lixo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="construcao.css">
+  <style>
+    #construcao img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
 
-        #construcao h3 {
-            margin-top: 30px;
-            color: #005a8d;
-        }
+    #construcao h3 {
+      margin-top: 30px;
+      color: #005a8d;
+    }
 
-        #construcao p {
-            line-height: 1.6;
-            margin-bottom: 15px;
-        }
+    #construcao p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
 
-        .section-title {
-            font-size: 2rem;
-            margin-bottom: 20px;
-            color: #003652;
-        }
-    </style>
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #003652;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
 <body>
-    <header class="site-header">
-        <div class="container">
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="componentes.html">Componentes Utilizados</a></li>
-                    <li><a href="sobrenos.html">Sobre Nós</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="construcao.html">Construção Projeto</a></li>
-                    <li><a href="projeto.html">Sobre o Projeto</a></li>
-                </ul>
-            </nav>
+  <header class="site-header">
+    <div class="container">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="componentes.html">Componentes Utilizados</a></li>
+          <li><a href="sobrenos.html">Sobre Nós</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="construcao.html">Construção Projeto</a></li>
+          <li><a href="projeto.html">Sobre o Projeto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section id="construcao">
+      <div class="container">
+        <h2 class="section-title">Construção do Projeto</h2>
+        <p>Durante a construção do nosso projeto de Monitoramento de Lixo nos Distritos, passamos por diversas etapas de montagem, testes de sensores e programação. Abaixo estão alguns registros desse processo:</p>
+
+        <h3>Montagem dos Componentes:</h3>
+        <div class="image-grid">
+          <img src="construcao1.jpg" alt="Montagem da equipe com sensores">
+          <img src="construcao4.jpeg" alt="Testando os circuitos e programação">
+          <img src="construcao3.jpg" alt="Exibição dos sensores conectados ao app">
+          <img src="construcao5.jpeg" alt="Imagem adicional da construção">
+          <img src="construcao6.jpg" alt="Imagem adicional da construção">
         </div>
-    </header>
 
-    <main class="site-main">
-        <section id="construcao">
-            <div class="container">
-                <h2 class="section-title">Construção do Projeto</h2>
-
-                <p>Durante a construção do nosso projeto de Monitoramento de Lixo nos Distritos, passamos por diversas etapas de montagem, testes de sensores e programação. Abaixo estão alguns registros desse processo:</p>
-
-                <h3>Montagem dos Componentes:</h3>
-                <img src="construcao1.jpg" alt="Montagem da equipe com sensores">
-                <img src="construcao4.jpeg" alt="Testando os circuitos e programação">
-                <img src="construcao3.jpg" alt="Exibição dos sensores conectados ao app">
-                <img src="construcao5.jpeg" alt="Imagem adicional da construção">
-                <img src="construcao6.jpg" alt="Imagem adicional da construção">
-
-                <h3>Testes de Monitoramento de Gás:</h3>
-                <p>Utilizamos sensores de gás integrados com o ESP32 para realizar testes de detecção. Criamos uma interface para acompanhar os níveis de gás em tempo real.</p>
-                <img src="construcao2.jpg" alt="Monitoramento de gás com ESP32">
-
-                <h3>Integração com a Plataforma ThingSpeak:</h3>
-                <p>Os dados captados pelos sensores foram enviados para a plataforma ThingSpeak, permitindo a visualização de gráficos atualizados em tempo real.</p>
-
-                <h3>Desenvolvimento Cronológico do Projeto:</h3>
-                <p><strong>Semana 1:</strong> Definição da proposta e pesquisa dos sensores.</p>
-                <p><strong>Semana 2:</strong> Compra dos materiais e início da montagem.</p>
-                <p><strong>Semana 3:</strong> Desenvolvimento e testes dos sensores (ultrassônico e MQ-4).</p>
-                <p><strong>Semana 4:</strong> Programação do ESP8266 e integração com ThingSpeak.</p>
-                <p><strong>Semana 5:</strong> Construção física da lixeira e instalação dos sensores.</p>
-                <p><strong>Semana 6:</strong> Testes finais, coleta de dados e ajustes.</p>
-
-                <h3>Resultados Finais:</h3>
-                <p>O projeto proporcionou aos alunos uma visão prática sobre sustentabilidade, tecnologia e inovação. A lixeira inteligente demonstrou ser uma solução eficiente para o monitoramento de resíduos e qualidade do ar, promovendo uma conexão direta entre campo e cidade. A utilização de sensores, automação e IoT (Internet das Coisas) contribuiu para a formação dos alunos na área de robótica, programação e responsabilidade ambiental.</p>
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container">
-            <p>&copy; Desenvolvido por Miguel Schlindwein - 2025. Todos os direitos reservados.</p>
+        <h3>Testes de Monitoramento de Gás:</h3>
+        <p>Utilizamos sensores de gás integrados com o ESP32 para realizar testes de detecção. Criamos uma interface para acompanhar os níveis de gás em tempo real.</p>
+        <div class="image-grid">
+          <img src="construcao2.jpg" alt="Monitoramento de gás com ESP32">
         </div>
-    </footer>
+
+        <h3>Integração com a Plataforma ThingSpeak:</h3>
+        <p>Os dados captados pelos sensores foram enviados para a plataforma ThingSpeak, permitindo a visualização de gráficos atualizados em tempo real.</p>
+
+        <h3>Desenvolvimento Cronológico do Projeto:</h3>
+        <p><strong>Semana 1:</strong> Definição da proposta e pesquisa dos sensores.</p>
+        <p><strong>Semana 2:</strong> Compra dos materiais e início da montagem.</p>
+        <p><strong>Semana 3:</strong> Desenvolvimento e testes dos sensores (ultrassônico e MQ-4).</p>
+        <p><strong>Semana 4:</strong> Programação do ESP8266 e integração com ThingSpeak.</p>
+        <p><strong>Semana 5:</strong> Construção física da lixeira e instalação dos sensores.</p>
+        <p><strong>Semana 6:</strong> Testes finais, coleta de dados e ajustes.</p>
+
+        <h3>Resultados Finais:</h3>
+        <p>O projeto proporcionou aos alunos uma visão prática sobre sustentabilidade, tecnologia e inovação. A lixeira inteligente demonstrou ser uma solução eficiente para o monitoramento de resíduos e qualidade do ar, promovendo uma conexão direta entre campo e cidade. A utilização de sensores, automação e IoT (Internet das Coisas) contribuiu para a formação dos alunos na área de robótica, programação e responsabilidade ambiental.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Desenvolvido por Miguel Schlindwein - 2025. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 </body>
-    </html>
+</html>
