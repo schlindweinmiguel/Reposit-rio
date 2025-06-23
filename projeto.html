@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre o Projeto</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
 
+    .container {
+      max-width: 1000px;
+      margin: 80px auto;
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #2d3e2f;
+      margin-bottom: 20px;
+    }
+
+    p, li {
+      color: #444;
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="site-header">
+    <div class="container" style="box-shadow: none;">
+      <img src="logo.jpeg" alt="logo" width="300" height="100">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="componentes.html">Componentes Utilizados</a></li>
+          <li><a href="sobrenos.html">Sobre Nós</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo -->
+  <main class="container">
+    <section class="section">
+      <h1>Sobre o Projeto</h1>
+      <p>Este projeto foi desenvolvido com o objetivo de promover a sustentabilidade e a conexão entre campo e cidade por meio da tecnologia. Diante da necessidade de melhorar a gestão de resíduos em ambientes rurais e urbanos, a proposta é criar uma lixeira inteligente, capaz de informar seu nível de ocupação e monitorar a qualidade do ar.</p>
+      <p>O uso de sensores e comunicação pela internet permite que tanto os moradores quanto os órgãos públicos possam acompanhar o estado da lixeira em tempo real, evitando transbordamentos e contribuindo para a preservação ambiental.</p>
+    </section>
+
+    <section class="section">
+      <h2>Objetivos do Projeto</h2>
+      <p><strong>Geral:</strong> Desenvolver uma lixeira inteligente com monitoramento de nível de ocupação e qualidade do ar, conectada à internet, visando sustentabilidade e melhoria da gestão de resíduos.</p>
+      <p><strong>Específicos:</strong></p>
+      <ul>
+        <li>Implementar sensor Ultrassônico HC-SR04 para medir o nível de lixo.</li>
+        <li>Implementar sensor de gás MQ-4 para monitoramento da qualidade do ar.</li>
+        <li>Utilizar o ESP8266 para envio dos dados ao ThingSpeak.</li>
+        <li>Criar uma interface de visualização dos dados para a comunidade.</li>
+        <li>Estimular práticas sustentáveis na gestão de resíduos.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Materiais e Métodos</h2>
+      <p>O projeto consiste em uma lixeira equipada com sensores que monitoram o quanto ela está cheia e detectam gases potencialmente perigosos. Os dados são enviados em tempo real para uma plataforma online (ThingSpeak) através de um microcontrolador ESP8266.</p>
+    </section>
+
+    <section class="section">
+      <h2>Metodologia do Projeto</h2>
+      <p>A metodologia utilizada foi a <strong>Aprendizagem Baseada em Projetos (ABP)</strong>, aliando pesquisa, desenvolvimento prático e programação.</p>
+      <p>O projeto foi dividido em etapas:</p>
+      <ul>
+        <li>Pesquisa teórica;</li>
+        <li>Desenvolvimento dos circuitos;</li>
+        <li>Programação dos sensores;</li>
+        <li>Integração dos dados à nuvem;</li>
+        <li>Testes de funcionamento.</li>
+      </ul>
+      <p>Essa abordagem promoveu autonomia dos alunos na resolução de problemas, desenvolvimento de lógica, trabalho em equipe e inovação tecnológica.</p>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Desenvolvido por Miguel Schlindwein - 2025. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/your_fontawesome_kit.js" crossorigin="anonymous"></script>
+</body>
+  </html>
